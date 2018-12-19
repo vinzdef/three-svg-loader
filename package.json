@@ -1,0 +1,24 @@
+{
+  "name": "three-svg-loader",
+  "version": "0.1.0",
+  "description": "Three js SVGLoader ported on npm",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghzmdr/three-svg-loader.git"
+  },
+  "keywords": [
+    "three",
+    "threejs",
+    "svg",
+    "loader",
+    "svg loader"
+  ],
+  "author": "Vincent De Feo (https://github.com/ghzmdr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghzmdr/three-svg-loader/issues"
+  },
+  "homepage": "https://github.com/ghzmdr/three-svg-loader#readme"
+}
