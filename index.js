@@ -17,7 +17,7 @@ var SVGLoader = function ( manager ) {
 };
 
 /* three-svg-loader mod */
-module.exports = (exports || {}).default = SVGLoader
+module.exports = SVGLoader
 
 SVGLoader.prototype = {
 
