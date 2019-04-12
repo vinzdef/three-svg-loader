@@ -1067,7 +1067,7 @@ SVGLoader.prototype = {
 
 };
 
-THREE.SVGLoader.getStrokeStyle = function ( width, color, opacity, lineJoin, lineCap,  miterLimit ) {
+SVGLoader.getStrokeStyle = function ( width, color, opacity, lineJoin, lineCap,  miterLimit ) {
 
 	// Param width: Stroke width
 	// Param color: As returned by THREE.Color.getStyle()
@@ -1094,7 +1094,7 @@ THREE.SVGLoader.getStrokeStyle = function ( width, color, opacity, lineJoin, lin
 
 };
 
-THREE.SVGLoader.pointsToStroke = function ( points, style, arcDivisions, minDistance ) {
+SVGLoader.pointsToStroke = function ( points, style, arcDivisions, minDistance ) {
 
 	// Generates a stroke with some witdh around the given path.
 	// The path can be open or closed (last point equals to first point)
@@ -1108,7 +1108,7 @@ THREE.SVGLoader.pointsToStroke = function ( points, style, arcDivisions, minDist
 	var normals = [];
 	var uvs = [];
 
-	if ( THREE.SVGLoader.pointsToStrokeWithBuffers( points, style, arcDivisions, minDistance, vertices, normals, uvs ) === 0 ) {
+	if ( SVGLoader.pointsToStrokeWithBuffers( points, style, arcDivisions, minDistance, vertices, normals, uvs ) === 0 ) {
 
 		return null;
 
@@ -1123,7 +1123,7 @@ THREE.SVGLoader.pointsToStroke = function ( points, style, arcDivisions, minDist
 
 };
 
-THREE.SVGLoader.pointsToStrokeWithBuffers = function () {
+SVGLoader.pointsToStrokeWithBuffers = function () {
 
 	var tempV2_1 = new THREE.Vector2();
 	var tempV2_2 = new THREE.Vector2();
