@@ -10,7 +10,7 @@
 /* three-svg-loader mod */
 var THREE = require('three')
 
-SVGLoader = function ( manager ) {
+var SVGLoader = function ( manager ) {
 
 	this.manager = ( manager !== undefined ) ? manager : THREE.DefaultLoadingManager;
 
