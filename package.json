@@ -1,6 +1,6 @@
 {
   "name": "three-svg-loader",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Three js SVGLoader ported on npm",
   "main": "index.js",
   "scripts": {},
