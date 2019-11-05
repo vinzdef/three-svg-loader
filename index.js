@@ -1130,7 +1130,7 @@ SVGLoader.prototype = Object.assign( Object.create( THREE.Loader.prototype ), {
 
 		//
 
-		console.log( 'THREE.SVGLoader' );
+		// console.log( 'THREE.SVGLoader' );
 
 		var paths = [];
 
